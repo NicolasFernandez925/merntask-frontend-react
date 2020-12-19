@@ -1,0 +1,494 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul, li{
+  padding: 0;
+}
+p{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+::placeholder{
+  color: rgb(167, 167, 167);
+}
+/*================= LOGIN ==================*/
+
+.login__contenedor {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.login__crear-cuenta {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+
+button.login__crear-cuenta:hover{
+  text-decoration: underline;
+  color: rgb(0, 129, 189);
+}
+
+button.login__crear-cuenta:focus{
+  outline: none;
+
+}
+
+
+.login__container_form {
+  height: 400px;
+  width: 100%;
+  color: rgb(255 255 255);
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__title{
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: rgb(238, 95, 0);
+  margin-bottom: 50px;
+}
+
+.contendt-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input.form__input-login {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 8px 0px 8px 30px;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: transparent;
+  color: rgb(168, 168, 168);
+  transition: 600ms all;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+input.form__input-login:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(238, 95, 0);
+
+}
+
+input.form__input-submit {
+  margin-top: 50px;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 17px;
+  backdrop-filter: 1px;
+  border-radius: 5px;
+  color: rgb(99, 99, 99);
+  background-color: rgb(224, 224, 224);
+  letter-spacing: 1px;
+  transition: 300ms all;
+
+}
+
+input.form__input-submit:hover {
+  background-color: rgb(238, 95, 0);
+  color: white;
+}
+input.form__input-submit:focus{
+  outline: none;
+}
+
+.login__imagen{
+  width: 100%;
+  height: 100%;
+}
+.login__logo{
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.login__logo .logo-img{
+  height: 100px;
+}
+.login__logo .logo-title{
+  font-weight: 600;
+
+}
+.login-form{
+  padding: 60px;
+}
+
+.form__content{
+  padding: 80px;
+}
+
+.form__input{
+  position: relative;
+}
+
+.form__input .fa-user, .fa-key, .fa-envelope{
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: rgb(48, 48, 48);
+}
+
+.fa-sign-out-alt{
+  margin-left: 5px;
+  color: white;
+  font-size: 18px;
+}
+
+.alerta-ok{
+  background-color: rgb(109,211,109);
+  color: rgb(2,103,2);
+}
+
+.alerta-error{
+  
+  color: rgb(230,78,78);
+}
+
+img.register__loading-gif {
+  height: 100px;
+  text-align: center;
+}
+
+
+.alerta {
+  margin-top: 10px;
+}
+
+/*=================  ==================*/
+
+/*================= PROYECTOS ==================*/
+
+.proyectos__contenedor-app{
+  background-color: white;
+}
+
+.proyectos__contenedor-app .proyectos__spanTtile-sidebar{
+  color:  rgb(238, 95, 0);
+  margin-right: 5px;
+}
+
+.proyectos__contenedor-app .proyectos__bg{
+  background-color: rgb(236, 236, 236);
+}
+
+.proyectos__contenedor-app .proyectos__aside{
+  height: 100%;
+}
+
+.proyectos__contenedor-app .proyecto__button, .proyecto__input-submit {
+  width: 80%;
+  margin: 35px 0px 20px 0px;
+  border: none;
+  padding: 8px;
+}
+.proyectos__contenedor-app .proyecto__button:hover, .proyecto__input-submit:hover {
+    background-color: rgb(156, 156, 156);
+    color: white;
+}
+
+.proyectos__contenedor-app .proyecto__button:focus, .proyecto__input-submit:focus {
+    outline: none;
+}
+
+.proyecto__error-form, .tarea__error-msg {
+ 
+  margin: 0 auto;
+  color: rgb(255 255 255);
+  border-radius: 2px;
+  font-weight: 500;
+  color: rgb(255 0 0);
+  text-align: center;
+}
+
+.proyectos__contenedor-app .proyecto__btn-proyecto {
+  border: none;
+  margin: 2px 0px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background: rgb(247 124 19);
+  width: 250px;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  color: rgb(255 255 255);
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+.proyectos__contenedor-app .proyecto__btn-proyecto:focus{
+  outline: none;
+}   
+
+.proyectos__contenedor-app .proyectos__title-proyectos{
+  margin: 30px 20px;
+}
+
+.proyectos__contenedor-app .proyecto__form-proyecto .proyecto__input{
+  padding: 8px;
+  border: 1px solid rgb(216, 216, 216);
+  width: 80%;
+  border-bottom: 2px solid rgb(238, 95, 0);
+  transition: 300ms all;
+  font-size: 14px;
+}
+
+
+
+.proyectos__contenedor-app .proyectos__listado {
+  overflow-y: scroll;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.proyectos {
+  padding-bottom: 35px;
+}
+
+.proyectos__contenedor-app .proyecto__form-proyecto .proyecto__input:focus{
+  outline: none;
+}
+.proyectos__contenedor-app .proyectos__header {
+  width: 100%;
+  background-color: rgb(255 157 93);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.proyectos__contenedor-app .proyectos__header .proyectos__user{
+  color: white;
+  font-weight: 500;
+  display: flex;
+  margin: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.proyectos__btn-cerrarSesion {
+  border: none;
+  /* padding: 5px; */
+  border-radius: 2px;
+  background: rgb(0 0 0 / 0%);
+  font-weight: 500;
+}
+
+button.proyectos__btn-cerrarSesion:focus {
+ outline: none;
+}
+
+.proyectos__contenedor-app .proyecto__li-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.proyectos__bg {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sidebar__logo{
+  width: 130px;
+}
+
+
+/*=================  ==================*/
+
+
+
+/*================= TAREA ==================*/
+
+.tarea__formulario {
+  background: white;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0px;
+  border-left: 2px solid rgb(240, 240, 240);
+}
+
+.tarea__formulario .tarea__input{
+  width: 550px;
+  padding: 6px;
+  margin: 7px 0px;
+  background-color: transparent;
+  border: none;
+  color: rgb(175, 175, 175);
+  border-bottom: 2px solid rgb(238, 95, 0);
+}
+
+.tarea__formulario .tarea__input:focus{
+  outline: none;
+}
+
+img.tarea__loading-gif{
+  height: 150px;
+  margin: 0 auto;
+}
+
+.tarea__formulario  .tarea__btn-submit{
+  width: 550px;
+  padding: 6px;
+  border: none;
+  margin-top: 20px;
+ 
+}
+
+.tarea__contenedor-button {
+  display: flex;
+ 
+}
+
+.tarea__formulario  .tarea__btn-submit:focus{
+ outline: none;
+}
+.tarea__formulario  .tarea__btn-submit:hover{
+  background-color: rgb(156, 156, 156);
+  color: white;
+ }
+
+ .tarea__contenedor-tarea {
+  box-shadow: 0px 1px 6px #717171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;  
+  margin: 8px 0px;
+}
+
+.tarea__title-listadoProyecto{
+  text-align: center;
+  padding: 30px 0px;
+  font-weight: 300;
+}
+
+.tarea__title{
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.tarea__button-completo, .tarea__button-incompleto, .tarea__btn-eliminar-proyecto, .tarea_btn-editar, .tarea_btn-eliminar{
+  border: none;
+}
+
+.tarea__button-completo{
+    padding: 4px;
+    background: rgb(173 222 175);
+    border-radius: 4px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tarea__button-incompleto{
+  padding: 4px;
+  background-color: rgb(255 140 140);
+  border-radius: 4px;
+  margin-left: 15px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+.tarea_btn-editar {
+  background-color: rgb(90 90 90);
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 7px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+
+.tarea_btn-eliminar {
+  background: rgb(255 75 75);
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 7px;
+  font-size: 13px;
+  color: white;
+  font-weight: 500;
+}
+
+.tarea__button-completo:focus, .tarea__button-incompleto:focus, .tarea__btn-eliminar-proyecto:focus, .tarea_btn-editar:focus, .tarea_btn-eliminar:focus{
+ outline: none;
+}
+
+.tarea__btn-eliminar-proyecto {
+  padding: 7px;
+  background: rgb(255 75 75);
+  border-radius: 5px;
+  color: white;
+}
+
+ 
+
+/*================= @media mobile ==================*/
+
+
+@media (max-width: 600px) {
+  .form__content {
+    padding: 0px;
+    margin-top: 25px;
+  }
+  .tarea__formulario .tarea__input{
+    width: 300px;
+
+  }
+  .tarea__formulario .tarea__btn-submit {
+    width: 300px;
+  }
+  .proyectos__contenedor-tareas {
+    padding: 10px 0px 30px 0px;
+  }
+  .tarea__contenedor-tarea {
+    flex-direction: column;
+  }
+  .tarea__contenedor-button {
+    padding-top: 10px;
+  }
+  .proyectos__contenedor-app .proyectos__listado {
+    height: auto;
+  }
+  img.tarea__loading-gif{
+    height: 100px;
+    margin: 0 auto;
+  }
+  .tarea__title {
+
+    font-size: 23px;
+  }
+  .login__container_form {
+    height: 0px;
+  }
+
+}
